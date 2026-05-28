@@ -1,0 +1,39 @@
+Analyze the following GitHub repository and provide a structured summary:
+
+Repository: {repository_url}
+Owner: {owner}
+Repo: {repo}
+
+Your task:
+1. Identify the project's main purpose
+2. Detect technologies used (languages, frameworks, tools)
+3. List important files and directories
+4. Explain in beginner-friendly terms
+5. Provide a TL;DR one-sentence summary
+
+Rules:
+- Be concise (max 400 words total)
+- Only use information from the repository
+- Do not hallucinate features not present
+- Format output as markdown with clear sections
+- Keep explanations simple and clear
+
+Output format:
+## Project Purpose
+[2-3 sentences explaining what the project does]
+
+## Technologies
+- [Technology 1]
+- [Technology 2]
+- [etc.]
+
+## Important Files
+- [filename]: [brief purpose]
+- [filename]: [brief purpose]
+- [etc.]
+
+## Beginner Explanation
+[Simple explanation as if teaching someone new to the project]
+
+## TL;DR
+[One sentence summary]
