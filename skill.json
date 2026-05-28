@@ -1,0 +1,28 @@
+{
+  "name": "SmartRepoSummarizer",
+  "version": "1.0.0",
+  "description": "Automatically analyze GitHub repositories and generate concise summaries with technology detection and key file identification",
+  "entry_point": "handler.py",
+  "author": "IronClaw Agent",
+  "license": "MIT",
+  "dependencies": [],
+  "features": [
+    "Repository analysis",
+    "Technology stack detection",
+    "Key file identification",
+    "Beginner-friendly explanations",
+    "TL;DR summaries"
+  ],
+  "input_format": {
+    "repository_url": "string - GitHub repository URL",
+    "owner": "string - Repository owner",
+    "repo": "string - Repository name"
+  },
+  "output_format": {
+    "project_purpose": "string - What the project does",
+    "technologies": "array - List of technologies used",
+    "important_files": "array - Key files and their purposes",
+    "beginner_explanation": "string - Simple explanation for newcomers",
+    "tldr": "string - One-sentence summary"
+  }
+}
